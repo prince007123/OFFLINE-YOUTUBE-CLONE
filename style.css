@@ -1,0 +1,380 @@
+div{
+
+    display: flex;
+    align-items: center;
+    
+    
+
+
+}
+
+
+
+
+.menu-image{
+
+    width: 30px;
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 5px;
+    
+}
+
+#button-menu{
+
+    
+    border: none;
+    border-radius: 999px;
+    padding: 8px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+
+}
+#button-menu:hover{
+    background-color: #d5d5d5;
+}
+
+.youtube-image{
+    width: 90px;
+    margin-right: 138px;
+
+  
+
+
+}
+#button-youtube{
+
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+input{
+
+    border-radius: 20px;
+    padding: 10px 45px 8px 12px;  /* Right padding for space for the button */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    width: 600px;
+    outline: none;
+    height: 40px;
+    box-sizing: border-box;
+    margin-right: 50px;
+
+}
+.search-image{
+
+width: 20px;
+padding:0px;
+
+
+
+
+}
+
+#button-search{
+ position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    margin-right:10px;
+    transition: background-color 0.3s ease;
+    border-radius: 999px;
+    padding: 4px 4px 4px 4px;
+
+}
+#button-search:hover{
+    background-color: #ccc;
+}
+
+.audio-image{
+
+    width: 50px;
+    margin-left: 1px;
+    
+
+}
+#button-audio{
+    border: none;
+    background-color: transparent;
+    margin-right: 50px;
+    cursor: pointer;
+    border-radius: 999px;
+    padding: 8px;
+    transition: background-color 0.3s ease;
+}
+
+#button-audio:hover{
+
+    background-color: #e5e5e5;
+}
+
+.profile-image{
+    width: 35px;
+
+    
+    
+}
+
+#button-profile{
+
+    border: none;
+    background-color: white;
+    
+    cursor: pointer;
+
+    
+
+}
+form{
+
+    position: relative;
+    width: 600px;
+    margin-right: 10px;
+}
+
+.notification-image{
+
+    width: 40px;
+
+}
+
+#button-notification{
+
+    border: none;
+    background-color: white;
+    margin-right: 10px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease ;
+}
+#button-notification:hover{
+
+    background-color: #d5d5d5;
+}
+
+.create-image{
+
+    height: 35px;
+
+}
+
+#button-create{
+
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease ;
+    
+
+
+}
+#button-create:hover{
+    background-color: #d5d5d5;
+    
+}
+
+
+#offline-image-box{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+
+}
+.offline{
+
+    width: 130px;
+    height: auto;
+    max-width: 100%;
+}
+
+.text{
+
+     position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font:bold;
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text2{
+
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+.go-to-download{
+
+
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+#button-gotodownload{
+
+    border: 1px solid #ccc;
+    border-radius: 80px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: white;
+    color: rgb(45, 45, 228);
+    font: 1000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+#button-gotodownload:hover{
+
+    background-color: #d5eeff;
+}
+#button-gotodownload:active{
+    background-color: #d5d5d5;
+}
+
+.four-container{
+
+    position: absolute;
+    top: 20%;
+    left: 2.9%;
+    transform: translate(-50%,-50%);
+
+
+
+}
+
+#button-home{
+
+border: none;
+background-color: white;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.home-image{
+
+    width: 32px;
+
+
+
+}
+#button-home:hover{
+   background-color:rgb(221, 226, 226);
+
+}
+
+.four-container2{
+    position: absolute;
+    top: 33%;
+    left: 2.9%;
+    transform: translate(-50%,-50%);
+
+
+
+
+}
+#button-shorts{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: backgound-color 0.3s ease;
+
+}
+
+#button-shorts:hover{
+
+    background-color: #d5d5d5;
+}
+.shorts-image{
+
+    width: 32px;
+}
+
+.four-container3{
+
+    position: absolute;
+    top: 45%;
+    left: 2.9%;
+    transform: translate(-50%,-50%);
+
+
+
+
+}
+#button-subscription{
+
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#button-subscription:hover{
+    background-color: #d5d5d5;
+}
+
+.subscription-image{
+width: 57px;
+}
+
+.four-container4{
+
+    position: absolute;
+    top: 58%;
+    left: 2.9%;
+    transform: translate(-50%,-50%);
+
+}
+
+#button-you{
+
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#button-you:hover{
+    background-color: #d5d5d5;
+}
+.you-image{
+
+    width: 35px;
+}
+
+.four-container5{
+
+    position: absolute;
+    top: 71%;
+    left: 2.9%;
+    transform: translate(-50%,-50%);
+}
+
+#button-download{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color  0.3s ease;
+}
+
+#button-download:hover{
+    background-color: #d5d5d5;
+}
+.download-image{
+
+    width: 55px;
+}
